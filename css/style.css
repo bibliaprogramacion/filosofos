@@ -1,0 +1,329 @@
+/* CSS PERSONALIZADO */
+
+
+
+/* CSS - GALERIA PRINCIPAL extraida de -http://bootsnipp.com/snippets/featured/responsive-thumb-preview-in-carousel-indicators- */
+#thumbnail-preview-indicators {
+  position: relative;
+  overflow: hidden;
+}
+#thumbnail-preview-indicators .slides .slide-1,
+#thumbnail-preview-indicators .slides .slide-2,
+#thumbnail-preview-indicators .slides .slide-3 {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+    #thumbnail-preview-indicators,
+    #thumbnail-preview-indicators .slides,
+    #thumbnail-preview-indicators .slides .slide-1,
+    #thumbnail-preview-indicators .slides .slide-2,
+    #thumbnail-preview-indicators .slides .slide-3 {
+      height: 480px;
+    }
+#thumbnail-preview-indicators .slides .slide-1 {
+  background-image: url(../img/box_galery/img-1.jpg);
+}
+#thumbnail-preview-indicators .slides .slide-2 {
+  background-image: url(../img/box_galery/img-3.jpg);
+}
+#thumbnail-preview-indicators .slides .slide-3 {
+  background-image: url(../img/box_galery/img-2.jpg);
+}
+#thumbnail-preview-indicators .carousel-inner .item .carousel-caption {
+  top: 20%;
+  bottom: inherit;
+}
+#thumbnail-preview-indicators .carousel-indicators li,
+#thumbnail-preview-indicators .carousel-indicators li.active {
+  position: relative;
+  width: 100px;
+  height: 8px;
+}
+#thumbnail-preview-indicators .carousel-indicators li > .thumbnail {
+  position: absolute;
+  top: 0;
+  width: 100px;
+  display: none;
+  opacity: 0;
+  left: 50%;
+  margin-top: -80px;
+  margin-left: -50px;
+}
+#thumbnail-preview-indicators .carousel-indicators li:hover > .thumbnail,
+#thumbnail-preview-indicators .carousel-indicators li.active > .thumbnail {
+  display: block;
+  opacity: .8;
+}
+#thumbnail-preview-indicators .carousel-indicators li.active > .thumbnail:hover{
+  opacity: 1;
+}
+@media screen and (max-width : 480px) {
+    #thumbnail-preview-indicators .carousel-indicators li,
+    #thumbnail-preview-indicators .carousel-indicators li.active {
+      width: 50px;
+      height: 8px;
+      position: relative;
+    }
+    #thumbnail-preview-indicators .carousel-indicators li > .thumbnail {
+       width: 50px;
+       left: 50%;
+    margin-top: -50px;
+       margin-left: -25px;
+    }
+}
+
+/* AJUSTES DE LOS BOTONES EN LA GALERIA */
+.ajuste-boton-full {
+  margin-top: 55px;
+}
+
+.ajuste-boton-movil {
+  margin-top: 2px;
+}
+
+/* CENTRADO DE IMÁGENES */
+.centro {
+    margin: auto;
+}
+
+/* BORDES / SOMBRAS / DECORACIÓN PARA LA GALERIA E IMÁGENES */
+.sombra-galeria {
+    box-shadow: 10px 5px 50px 20px black;
+    -webkit-box-shadow: 10px 5px 70px 20px black;
+    -moz-box-shadow: 10px 5px 50px 20px black;
+}
+
+/*SOMBRA DEL PIE DE PÁGINA */
+.sombra-pie {
+    box-shadow: 0px -11px 44px 15px rgba(0,0,0,1);
+    -webkit-box-shadow: 0px -11px 44px 15px rgba(0,0,0,1);
+    -moz-box-shadow: 0px -11px 44px 15px rgba(0,0,0,1);
+}
+
+/*BORDE SENCILLO PARA LAS IMAGENES DEL CONTENIDO*/
+.img-borde {
+    border: 6px solid;
+    border-color: black;
+}
+/*BORDEADOS Y SOMBREADO DE LAS IMAGENES DEL CUERPO*/
+.img-borde-izq {
+    border: 6px solid;
+    border-radius: 35% 0% 35% 0%;
+    border-color: black;
+}
+
+.img-borde-der {
+    border: 6px solid;
+    border-radius: 0% 35% 0% 35%;
+    border-color: black;
+}
+
+/* PANELES LATERALES */
+.clickable{
+    cursor: pointer;   
+}
+
+.panel-heading span {
+	margin-top: -20px;
+	font-size: 12px;
+}
+
+/* FLOTANDO LOS ICONOS EN EL INTERIOR DE LA BARRA DE MENU*/
+/* .aire {
+    width: auto;
+    text-align: center;
+} */
+
+.libra-derecha {
+    margin-right: 14px;
+}
+
+/* AJUSTANDO ICONOS DEL MENU* REVISAR PUESTO QEU SE MOVIERON AL PIE DE PÁGINA */
+.centra_vertical {
+    height: 8px;
+    width: 100%;
+}
+
+.centra_vertical_css {
+    height: 3px;
+    width: 100%;
+}
+
+.centra_vertical_donb {
+    height: 4px;
+    width: 100%;
+}
+
+.centra_vertical_cc {
+    margin-top: 14px;
+}
+
+/* AJUSTANDO LAS CAJAS INTERNAS */
+.p-aire {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+/* 
+
+/* GANAR TODO EL ANCHO DE LA PANTALLA */
+.full-width {
+    width: 100%;
+}
+
+/*ACOMODANDO LOS ICONOS AÑADIDOS*/
+.icono-tamano {
+    font-size: 16px;
+}
+
+.icono-color {
+    color: white; 
+}
+
+
+
+a#change {
+    color:#B11B04;
+}
+
+.color-blanco {
+    color:white;
+}
+
+/* LIBERANDO BOX DE LA GALERIA */
+.p-alto {
+    padding-top: 72px;
+}
+
+.p-logo {
+    padding-bottom: 30px;
+}
+
+/* LIBERAR FOTOS GALERIA DE MANCHA DERECHA */
+.p-off {
+    padding-right: 0px;
+}
+
+
+/* LIBERANDO LOS PANELES */
+.panel-pad {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+/* MIGAS LIBERANDO */
+.migas-libera {
+    margin: 0px 9px 0px; 
+}
+/* LINEA DIVISORIA DOBLE */
+hr {
+       border-top: 4px double #000000 !important;
+       margin-bottom:25px !important; 
+       margin-top:25px !important;
+   }
+
+/*LINEA DIVISORIA INVERSA */
+hr.hr-inverse {
+       border-top: 4px double white !important;
+       margin-bottom:25px !important; 
+       margin-top:25px !important;
+   }
+
+/* centrado de contenidos de inicio */
+.centrado { 
+  margin-top: 50px;
+}
+
+.centrado-1 { 
+  margin-top: 22px;
+}
+
+/* GENERADOR DE PARPADEO */
+.animated {
+ animation-duration: 5.5s;
+ -webkit-animation-duration: 5.5s;
+ -webkit-animation-fill-mode: both;
+ animation-fill-mode: both;
+ -webkit-animation-timing-function: linear;
+ -webkit-animation-iteration-count: infinite;
+}
+
+@keyframes flash {
+ 0%, 50%, 100% {
+ opacity: 1;
+ }
+25%, 75% {
+ opacity: 0;
+ }
+}
+@-webkit-keyframes flash {
+ 0%, 50%, 100% {
+ opacity: 1;
+ }
+25%, 75% {
+ opacity: 0;
+ }
+}
+.flash {
+ animation-name: flash;
+ -webkit-animation-name: flash;
+}
+
+/* RETOCANDO EL FOOTER */
+.color-negro {
+ background-color: black;
+}
+
+/*ENLACES DE TODA LA WEB*/
+    a:link {color:darkred; } 
+    a:visited {color:red;} 
+    a:active {color:white;} 
+    a:hover {color:red;} 
+
+/*EDITANDO LOS ENLACES DE LOS BOTONES */
+    a.btn-danger:link {color:white; } 
+    a.btn-danger:visited {color:white;} 
+    a.btn-danger:active {color:white;} 
+    a.btn-danger:hover {color:antiquewhite;} 
+
+/*EDITANDO LOS ENLACES DEL MENU DE MIGAS DE PAN */
+    a.enlaces-migas:link {color:darkred; } 
+    a.enlaces-migas:visited {color:red;} 
+    a.enlaces-migas:active {color:red;} 
+    a.enlaces-migas:hover {color:red;} 
+
+/* EDITANDO TODOS LOS ENLACES DEL PIE */
+    a.enlaces:link {text-decoration:none; color:white; } 
+    a.enlaces:visited {text-decoration:none; color:darkred;} 
+    a.enlaces:active {text-decoration:none; color:white;} 
+    a.enlaces:hover {text-decoration:underline; color:white;} 
+
+/*EDITANDO LOS ENLACES QUE NO DEBEN VERSE COMO TAL*/
+    a.no-enlaces:link {text-decoration:none; color:white; } 
+    a.no-enlaces:visited {text-decoration:none; color:white;} 
+    a.no-enlaces:active {text-decoration:none; color:white;} 
+    a.no-enlaces:hover {text-decoration:none; color:white;} 
+
+/*TIPOGRAFIA Y TAMAÑO DE LA FUENTE DE LOS ENLACES PARA EL PIE */
+.enlaces { font-family: "Tahoma", "Helvetica Neue", Arial; 
+       font-size:1.8rem; }
+.no-enlaces { font-family: "Tahoma", "Helvetica Neue", Arial; 
+       font-size:1.6rem; }
+
+/*LIBERANDO EL FOOTER DE LOS CONTENIDOS Y LA SOMBRA */
+.librando-pie {
+    padding-top: 85px;
+}
+
+/*AJUSTANDO ENLACES DEL FOOTER */
+p-aire-2 {
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+
+/*JUSTIFICACION LIGERALMENTE CENTRADA DE LA BOTONTERA DE LEER MÁS*/
+.margen-boton {
+    margin-left: 50px;
+}

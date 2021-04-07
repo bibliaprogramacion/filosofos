@@ -1,0 +1,10 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^filosofos\.mundoframework\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.filosofos\.mundoframework\.com$
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/\.well-known/acme-challenge/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^/?$ "https\:\/\/www\.mundoframework\.com\/proyectos\/filosofos\/" [R=301,L]
+ErrorDocument 404 /404.html
+

@@ -1,0 +1,28 @@
+/* TEAM */
+
+	Web designer: Pablo Alvarez Corredera
+	Twitter: @mundoframework
+	From:Asturias, Langreo, Spain
+	
+	Other Members: Looking for it.. 
+	From: I don´t have preferences
+	Looking for people who want to collaborate. :)
+	
+/* THANKS */
+
+	(First) my love: Carmen Felix
+	Twitter: @Carmen_92_fy
+	From: Asturias, Gijón, Spain
+
+	My Mother: MºCruz
+	For give me the life
+	
+	WikiPedia: All the contributors
+	For the extracts of the information and the images
+	Web: https://es.wikipedia.org/wiki/Wikipedia:Portada
+
+/* SITE */
+	Last update:2018/03/07 - in progress
+	Language: Castellano
+	Doctype:HTML5
+	IDE: Brackets, Notepad++, Bootstrap, FileZilla, XnView, Gimp

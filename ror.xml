@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:ror="http://rorweb.com/0.1/" >
+<channel>
+  <title>ROR Sitemap for https://www.mundoframework.com/proyectos/filosofos/</title>
+  <link>https://www.mundoframework.com/proyectos/filosofos/</link>
+
+<item>
+     <link>https://www.mundoframework.com/proyectos/filosofos/</link>
+     <title>Codificando..</title>
+     <description>Philosophy of code. Abrazando El Futuro. Recopilación de los creadores de algunos de los lenguajes de programación más utilizados, curiosos o reconocidos</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>0</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://www.mundoframework.com/proyectos/filosofos/pages/programadores.html</link>
+     <title>Programadores</title>
+     <description>Philosophy of code. Abrazando El Futuro. Recopilación de los creadores de algunos de los lenguajes de programación más utilizados, curiosos o reconocidos</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://www.mundoframework.com/proyectos/filosofos/pages/videoteca.html</link>
+     <title>Videoteca</title>
+     <description>Philosophy of code. Abrazando El Futuro. Recopilación de los creadores de algunos de los lenguajes de programación más utilizados, curiosos o reconocidos</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://www.mundoframework.com/proyectos/filosofos/pages/lenguajes-innovadores.html</link>
+     <title>Lenguajes De Programación</title>
+     <description>Philosophy of code. Abrazando El Futuro. Recopilación de los creadores de algunos de los lenguajes de programación más utilizados, curiosos o reconocidos</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://www.mundoframework.com/proyectos/filosofos/pages/contacto.html</link>
+     <title>Contacto</title>
+     <description>Philosophy of code. Abrazando El Futuro. Recopilación de los creadores de algunos de los lenguajes de programación más utilizados, curiosos o reconocidos</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://www.mundoframework.com/proyectos/filosofos/index.html</link>
+     <title>Codificando..</title>
+     <description>Philosophy of code. Abrazando El Futuro. Recopilación de los creadores de algunos de los lenguajes de programación más utilizados, curiosos o reconocidos</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+</channel>
+</rss>
+  
